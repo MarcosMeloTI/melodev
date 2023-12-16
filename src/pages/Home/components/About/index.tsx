@@ -12,9 +12,11 @@ export const About = () => {
             About <span>.</span>
           </h1>
           <p>
-            Lorem ipsum dolor sit amet. Sit dolore corrupti id sint optio et
-            facilis inventore ut magnam quos quo magni temporibus At reiciendis
-            sequi rem ipsam provident.
+            Meu nome é Marcos Melo, sou desenvolvedor Front-End há 2 anos, pós
+            graduando em Engenharia Ágil de Software, atualmente sou Estagiário
+            de Desenvolvimento Front-End no Grupo Parvi e Freelancer. Crio sites
+            com design moderno e de alta qualidade, com foco em responsividade e
+            SEO.
           </p>
           <ul>
             <a

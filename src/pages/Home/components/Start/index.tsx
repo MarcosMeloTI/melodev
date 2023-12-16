@@ -8,10 +8,8 @@ export const Start = () => {
 
   useEffect(() => {
     const optionsP = {
-      strings: [
-        'Lorem ipsum dolor sit amet. Sit dolore corrupti id sint optio et facilis inventore ut magnam quos quo magni temporibus At reiciendis sequi rem ipsam provident.',
-      ],
-      typeSpeed: 30,
+      strings: ['Desenvolvedor Front-End .  💻'],
+      typeSpeed: 40,
       showCursor: false,
     }
 
@@ -26,7 +24,7 @@ export const Start = () => {
     <StartContainer id="Home">
       <TitleContainer>
         <h1>
-          Hello World <span>.</span>
+          Marcos Melo <span>.</span>
         </h1>
         <p ref={typedP}></p>
         <ButtonContainer

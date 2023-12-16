@@ -36,6 +36,7 @@ export const TitleContainer = styled.div`
 
   p {
     margin-bottom: 1rem;
+    letter-spacing: 0.25rem;
   }
 `
 

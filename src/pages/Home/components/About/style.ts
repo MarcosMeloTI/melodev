@@ -20,7 +20,7 @@ export const AboutArea = styled.div`
   background-color: ${({ theme }) => theme.colors['gray-600']};
 
   padding: 3rem;
-  gap: 17rem;
+  gap: 13rem;
 
   display: flex;
   align-items: center;
@@ -36,7 +36,7 @@ export const AboutArea = styled.div`
 
 export const TextContainer = styled.div`
   width: 100%;
-  max-width: 26rem;
+  max-width: 30rem;
 
   display: flex;
   align-items: flex-start;
@@ -50,6 +50,12 @@ export const TextContainer = styled.div`
     span {
       color: ${({ theme }) => theme.colors.purple};
     }
+  }
+
+  p {
+    letter-spacing: 0.25px;
+    font-size: 1.1rem;
+    color: ${({ theme }) => theme.colors['gray-300']};
   }
 
   ul {
