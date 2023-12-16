@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 export const AboutContainer = styled.div`
-  background-image: url('src/assets/161.jpg');
+  background-color: ${({ theme }) => theme.colors['gray-700']};
+  background-image: url('https://wallpapercave.com/uwp/uwp4191109.jpeg');
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
