@@ -13,7 +13,6 @@ export const HeaderContainer = styled.div`
 
   img {
     width: 8rem;
-    cursor: pointer;
   }
 `
 

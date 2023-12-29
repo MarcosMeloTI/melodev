@@ -8,20 +8,22 @@ export const AboutContainer = styled.div`
   background-position: center;
   background-attachment: fixed;
 
+  width: 100%;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  padding: 5rem;
 `
 
 export const AboutArea = styled.div`
   background-color: ${({ theme }) => theme.colors['gray-600']};
 
   padding: 3rem;
-  gap: 13rem;
+  gap: 8rem;
 
+  width: 90%;
+  height: 70%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -36,7 +38,7 @@ export const AboutArea = styled.div`
 
 export const TextContainer = styled.div`
   width: 100%;
-  max-width: 30rem;
+  max-width: 35rem;
 
   display: flex;
   align-items: flex-start;
